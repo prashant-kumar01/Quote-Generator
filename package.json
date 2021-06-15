@@ -1,6 +1,5 @@
 {
   "name": "quote-generator",
-  "homepage": "https://prashant-kumar01.github.io/Random-quote-generator/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

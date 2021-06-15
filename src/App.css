@@ -136,7 +136,7 @@ input:checked + .slider:before {
 .dark-mode .nav{
   background-image: linear-gradient(to right,darksalmon,darkslateblue);
 }
-.xyz{
+.rotate{
   animation-name: rotate;
   animation-duration: 5s;
   animation-iteration-count: infinite;

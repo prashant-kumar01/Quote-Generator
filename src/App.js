@@ -19,7 +19,7 @@ function App() {
   return (
     <div className={dark ? "dark-mode":"light"}>
       <div className="nav">
-      {dark?<i class="fas fa-sun abc"></i>:<i class="fas fa-sun abc pqr xyz"></i>}
+      {dark?<i class="fas fa-sun abc"></i>:<i class="fas fa-sun abc pqr rotate"></i>}
             <label className="switch">
             <input type="checkbox"
             onChange={()=>setMode(!dark)}
