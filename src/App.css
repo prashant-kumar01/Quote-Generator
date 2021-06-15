@@ -1,0 +1,159 @@
+body{
+  overflow: hidden;
+}
+.box{
+  background-color: rgb(219, 171, 155);
+  color: black;
+  font-size: 40px;
+  top: 20%;
+  left: 20%;
+  height: auto;
+  width: 60%;
+  position: relative;
+  border: 5px solid red;
+  border-radius: 60px;
+}
+.box1{
+  background-color:#1f212e;
+  color: white;
+  font-size: 40px;
+  top: 20%;
+  left: 20%;
+  height: auto;
+  width: 60%;
+  position: relative;
+  border: 5px solid #0091aa;
+  border-radius: 60px;
+}
+button{
+  height: 40px;
+  width: 80px;
+  color: rgb(0, 0, 0);
+  background-color: lavender;
+  border: 3px solid #b68972;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  transition: transform 0.7s ease-in-out;
+}
+button:hover{
+  transform: scale(1.1,1.1);
+}
+.raat{
+  background-image: url('./raat.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.din{
+  background-image: url('./din.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 80px;
+  height: 40px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.abc{
+  font-size: 40px;
+}
+.pqr{
+  color: #f3c46c;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fffefe;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 28px;
+  width: 28px;
+  left: 6px;
+  bottom: 6px;
+  background-color: rgb(116, 116, 116);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #000000;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #000000;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(30px);
+  -ms-transform: translateX(30px);
+  transform: translateX(40px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.nav{
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to right,burlywood,#042a4b);
+  padding: 40px;
+}
+.content{
+  text-align: center;
+  height: 85vh;
+  top: 70vh;
+  
+}
+.dark-mode{
+  background: #2d2d2d;
+  color: rgb(233, 233, 233);
+}
+.light{
+  color: #03143a;
+}
+.dark-mode .nav{
+  background-image: linear-gradient(to right,darksalmon,darkslateblue);
+}
+.xyz{
+  animation-name: rotate;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+} 
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media only screen and (max-width: 495px) {
+ .box1 {
+      top: 5%;
+
+      height: auto;
+  }
+}
