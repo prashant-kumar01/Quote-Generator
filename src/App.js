@@ -1,10 +1,15 @@
-import React,{useState} from 'react';
+import React,{useState , useEffect} from 'react';
 import './App.css';
-
+import SyncLoader from 'react-spinners/SyncLoader';
 
 function App() {
+  const [loading,setLoading]=useState(false);
   const [dark,setMode] = useState(false);
   const [quotes, setQuotes] = useState("");
+
+  useEffect(() => {
+    getQuotes();
+  }, []);
 
   const getQuotes = () => {
     fetch("https://type.fit/api/quotes")
@@ -12,6 +17,10 @@ function App() {
     .then((data) => {
       let randomNum = Math.floor(Math.random() * data.length);
       setQuotes(data[randomNum]);
+      setLoading(true);
+    setTimeout(()=>{
+      setLoading(false);
+    },2000);
     })
     
   }
@@ -30,7 +39,10 @@ function App() {
       </div>
       <div className={dark?"raat content":"din content"}>
         <div className={dark?"box":"box1"}>
-        <p>{quotes.text}</p>
+
+        {loading?<div className="Loader"><SyncLoader color={'white'} loading={true} size={20}/></div>:<div>
+        {quotes.text}
+      </div>}
         <button onClick={getQuotes}>New Quote</button>
     </div>
     
