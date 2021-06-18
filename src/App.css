@@ -1,6 +1,9 @@
 body{
   overflow: hidden;
 }
+.Loader{
+  padding-top: 2%;
+}
 .box{
   background-color: rgb(219, 171, 155);
   color: black;
@@ -11,7 +14,7 @@ body{
   width: 60%;
   position: relative;
   border: 5px solid red;
-  border-radius: 60px;
+  border-radius: 40px;
 }
 .box1{
   background-color:#1f212e;
@@ -23,7 +26,7 @@ body{
   width: 60%;
   position: relative;
   border: 5px solid #0091aa;
-  border-radius: 60px;
+  border-radius: 40px;
 }
 button{
   height: 40px;
