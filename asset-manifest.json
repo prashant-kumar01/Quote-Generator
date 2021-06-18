@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Quote-Generator/static/css/main.37c6a9bb.chunk.css",
-    "main.js": "/Quote-Generator/static/js/main.919a761d.chunk.js",
-    "main.js.map": "/Quote-Generator/static/js/main.919a761d.chunk.js.map",
-    "runtime-main.js": "/Quote-Generator/static/js/runtime-main.d5a43073.js",
-    "runtime-main.js.map": "/Quote-Generator/static/js/runtime-main.d5a43073.js.map",
-    "static/js/2.abc67c21.chunk.js": "/Quote-Generator/static/js/2.abc67c21.chunk.js",
-    "static/js/2.abc67c21.chunk.js.map": "/Quote-Generator/static/js/2.abc67c21.chunk.js.map",
-    "static/js/3.d2b74a26.chunk.js": "/Quote-Generator/static/js/3.d2b74a26.chunk.js",
-    "static/js/3.d2b74a26.chunk.js.map": "/Quote-Generator/static/js/3.d2b74a26.chunk.js.map",
+    "main.css": "/Quote-Generator/static/css/main.be735d07.chunk.css",
+    "main.js": "/Quote-Generator/static/js/main.0c3dbe40.chunk.js",
+    "main.js.map": "/Quote-Generator/static/js/main.0c3dbe40.chunk.js.map",
+    "runtime-main.js": "/Quote-Generator/static/js/runtime-main.056ddcbe.js",
+    "runtime-main.js.map": "/Quote-Generator/static/js/runtime-main.056ddcbe.js.map",
+    "static/js/2.92d411ca.chunk.js": "/Quote-Generator/static/js/2.92d411ca.chunk.js",
+    "static/js/2.92d411ca.chunk.js.map": "/Quote-Generator/static/js/2.92d411ca.chunk.js.map",
+    "static/js/3.cb5da231.chunk.js": "/Quote-Generator/static/js/3.cb5da231.chunk.js",
+    "static/js/3.cb5da231.chunk.js.map": "/Quote-Generator/static/js/3.cb5da231.chunk.js.map",
     "index.html": "/Quote-Generator/index.html",
-    "static/css/main.37c6a9bb.chunk.css.map": "/Quote-Generator/static/css/main.37c6a9bb.chunk.css.map",
-    "static/js/2.abc67c21.chunk.js.LICENSE.txt": "/Quote-Generator/static/js/2.abc67c21.chunk.js.LICENSE.txt",
+    "static/css/main.be735d07.chunk.css.map": "/Quote-Generator/static/css/main.be735d07.chunk.css.map",
+    "static/js/2.92d411ca.chunk.js.LICENSE.txt": "/Quote-Generator/static/js/2.92d411ca.chunk.js.LICENSE.txt",
     "static/media/App.css": "/Quote-Generator/static/media/raat.f2051b49.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d5a43073.js",
-    "static/js/2.abc67c21.chunk.js",
-    "static/css/main.37c6a9bb.chunk.css",
-    "static/js/main.919a761d.chunk.js"
+    "static/js/runtime-main.056ddcbe.js",
+    "static/js/2.92d411ca.chunk.js",
+    "static/css/main.be735d07.chunk.css",
+    "static/js/main.0c3dbe40.chunk.js"
   ]
 }
